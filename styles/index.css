@@ -5,8 +5,10 @@
     font-family: 'Poppins',sanserif;
 
 }
-section{
+.section1{
     position: relative;
+    background: url(/images/headerbac.png);
+    background-color: transparent;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -14,7 +16,7 @@ section{
     align-items: center;
     background: #161616;
 }
-section .header{
+.section1 .header{
     position: absolute;
     top: 0;
     left: 0;
@@ -23,6 +25,24 @@ section .header{
     background: #151e2a;
     clip-path: circle(40% at right 20%);
 }
-span{
+/*span{
     color: firebrick;
+}*/
+.header .navigation{
+    position: relative;
+    display: flex;
+}
+.header .navigation li{
+    list-style: none;
+
+}
+.header .navigation li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.header .navigation li a:hover{
+    border-bottom: 1rem solid #fff;
 }
