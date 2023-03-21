@@ -26,7 +26,7 @@
     height: 100%;
     /*background: #151e2a;
     clip-path: circle(40% at right 20%);*/
-}*/
+*/
 /*span{
     color: firebrick;
 }*/
@@ -101,7 +101,7 @@ justify-content: center;
         height: 40vh;
         display: flex;
         align-items: center;
-        background: ;
+        /* background: ; */
         flex-direction: column;
         padding: 50px 20px;
 
