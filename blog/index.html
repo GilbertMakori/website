@@ -15,12 +15,12 @@
       /* CSS styles for the blog page */
       body {
         font-family: Arial, sans-serif;
-        margin: 0;
+        margin: 2rem;
         padding: 0;
-        background-color: rgba(79, 79, 145, 0.651);
+        color: #37474f;
       }
       header {
-        background-color: #333;
+        background-color: #1a191b;
         color: #fff;
         padding: 10px;
       }
@@ -28,6 +28,7 @@
         margin: 0;
         font-size: 36px;
         text-align: center;
+        font-weight: bold;
       }
       main {
         /* display: flex;
@@ -40,11 +41,14 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: 20px;
+        justify-content: center;
         margin: 0 auto;
         width: 80%;
         padding: 20px;
         border-radius: 10px;
         border: 3px solid black;
+        outline: none;
+        
         
       }
 
@@ -58,23 +62,11 @@
         border-radius: 10px;
         padding: 10px; */
 
-        background: transparent;
-    text-align: center;
-    height: 300px;
-    border: 1px solid rgba(0, 0, 0, 0.384);
-    border-radius: 10px;
-    background-position: center;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    font-family: monospace;
-    font-size: 16px;
-    color: #00000059;
-    position: relative;
-    box-shadow: none;
-    transition: all 0.3s ease-in-out;
+        
       }
       .blog-post h2 {
         margin-top: 0;
+        text-transform: capitalize;
       }
       footer {
         background-color: #333;
@@ -90,65 +82,86 @@
         width: 100%;
         box-sizing: border-box;
       }
+      h2{
+        color: black;
+        font-size: 30px;
+        
+      }
+      /*h2:hover{
+        color: firebrick;
+        float: right;
+        border-bottom: .1rem solid firebrick;
+        text-transform: capitalize;
+        transition: .5s;
+        cursor: pointer;
+        font-weight: bold;
+      }*/
+      p{
+        color: black;
+        word-spacing: 0.5rem;
+        font-size: large;
+      }
     </style>
   </head>
   <body>
     <header>
-      <h1>My Blog</h1>
+      <h1> <span>My </span> Blog </h1>
       <input type="text" id="search" placeholder="Search...">
     </header>
     <main>
+      
       <div class="blog-post">
-        <h2>Blog Post 1</h2>
+        <h2>Blog Post <span>1</span> </h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod mi id magna elementum, at commodo sapien suscipit. Duis eu nulla sed nisl commodo feugiat non et diam.</p>
-        <a href="blog-post-1.html">Read more</a>
+         <a href="blog-post-1.html" >Read more</a>
       </div>
       <div class="blog-post">
-        <h2>Blog Post 2</h2>
+        <h2>Blog Post <span>2</span></h2>
         <p>Proin tempor sapien vel tellus commodo, nec faucibus massa dignissim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-        <a href="blog-post-2.html">Read more</a>
+        <a href="blog-post-2.html" class="btn">Read more</a>
       </div>
       <div class="blog-post">
-        <h2>Blog Post 3</h2>
+        <h2>Blog Post <span>3</span></h2>
         <p>Nam feugiat ante at dui vehicula, vel lobortis nibh dapibus. Nulla eleifend enim a nibh bibendum, vitae consequat turpis blandit. Sed sit amet ipsum et nunc rutrum facilisis.</p>
-        <a href="blog-post-3.html">Read more</a>
+        <a href="blog-post-3.html"  class="btn">Read more</a>
       </div>
       <div class="blog-post">
-        <h2>Blog Post 4</h2>
+        <h2>Blog Post <span>4</span></h2>
         <p>Phasellus rhoncus, ipsum id dignissim sagittis, elit dui faucibus turpis, in gravida mauris erat vitae turpis. Fusce ac lorem id nunc semper auctor.</p>
-        <a href="blog-post-4.html">Read more</a>
+        <a href="blog-post-4.html" class="btn">Read more</a>
       </div>
    
       <div class="blog-post">
-        <h2>Blog Post 4</h2>
+        <h2>Blog Post <span>5</span></h2>
         <p>Phasellus rhoncus, ipsum id dignissim sagittis, elit dui faucibus turpis, in gravida mauris erat vitae turpis. Fusce ac lorem id nunc semper auctor.</p>
-        <a href="blog-post-4.html">Read more</a>
+        <a href="blog-post-4.html" class="btn">Read more</a>
       </div>
 
       <div class="blog-post">
-        <h2>Blog Post 4</h2>
+        <h2>Blog Post <span>6</span></h2>
         <p>Phasellus rhoncus, ipsum id dignissim sagittis, elit dui faucibus turpis, in gravida mauris erat vitae turpis. Fusce ac lorem id nunc semper auctor.</p>
-        <a href="blog-post-4.html">Read more</a>
+        <a href="blog-post-4.html" class="btn">Read more</a>
       </div>
 
       <div class="blog-post">
-        <h2>Blog Post 4</h2>
+        <h2>Blog Post <span>7</span></h2>
         <p>Phasellus rhoncus, ipsum id dignissim sagittis, elit dui faucibus turpis, in gravida mauris erat vitae turpis. Fusce ac lorem id nunc semper auctor.</p>
-        <a href="blog-post-4.html">Read more</a>
+        <a href="blog-post-4.html" class="btn">Read more</a>
       </div>
 
 
       <div class="blog-post">
-        <h2>Blog Post 4</h2>
+        <h2>Blog Post 8</h2>
         <p>Phasellus rhoncus, ipsum id dignissim sagittis, elit dui faucibus turpis, in gravida mauris erat vitae turpis. Fusce ac lorem id nunc semper auctor.</p>
-        <a href="blog-post-4.html">Read more</a>
+        <a href="blog-post-4.html" class="btn">Read more</a>
       </div>
 
       <div class="blog-post">
-        <h2>Blog Post 4</h2>
+        <h2>Blog Post <span>9</span></h2>
         <p>Phasellus rhoncus, ipsum id dignissim sagittis, elit dui faucibus turpis, in gravida mauris erat vitae turpis. Fusce ac lorem id nunc semper auctor.</p>
-        <a href="blog-post-4.html">Read more</a>
+        <a href="blog-post-4.html" class="btn">Read more</a>
       </div>
+      
     </main>
     <footer>
       &copy; 2023 My Blog
